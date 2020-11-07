@@ -69,12 +69,9 @@ async def amireallyalive(alive):
         tele += "`Hey! I'm alive. All systems online and functioning normally!`\n\n"
         tele += "` 🔸 Telethon version:` **1.17**\n` 🔹 Python:` **3.8.3**\n"
         tele += f"` 🔸 TeleBot Version:` **{telever}**\n"
-        tele += "` 🔹 More Info:` **@TeleBotSupport**\n"
-        tele += f"` 🔸 Sudo :` **{sudo}**\n"
         tele += f"` 🔹 TeleBot Uptime:` **{uptime}**\n"
-        tele += "` 🔸 Database Status:` **All OK 👌!**\n"
+        tele += "` 🔸 Database Status:` **Working Smooth!**\n"
         tele += f"` 🔹 My pro owner` : **[{DEFAULTUSER}](tg://user?id={myid})**\n\n"
-        tele += "    [✨ GitHub Repository ✨](https://github.com/xditya/TeleBot)"
 
         await alive.get_chat()
         await alive.delete()
@@ -98,11 +95,9 @@ async def amireallyalive(alive):
             "` 🔸 Telethon version:` **1.17**\n` 🔹 Python:` **3.8.3**\n"
             f"` 🔸 TeleBot Version:` **{telever}**\n"
             "` 🔹 More Info:` **@TeleBotSupport**\n"
-            f"` 🔸 Sudo :` **{sudo}**\n"
             f"` 🔹 TeleBot Uptime:` **{uptime}**\n"
-            "` 🔸 Database Status:` **All OK 👌!**\n"
-            f"` 🔹 My pro owner` : **[{DEFAULTUSER}](tg://user?id={myid})**\n\n"
-            "    [✨ GitHub Repository ✨](https://github.com/xditya/TeleBot)",
+            "` 🔸 Database Status:` **Working Smooth!**\n"
+            f"` 🔹 My pro owner` : **[{DEFAULTUSER}](tg://user?id={myid})**\n\n",
             link_preview=False,
         )
         await borg.send_file(alive.chat_id, file=sticker)
