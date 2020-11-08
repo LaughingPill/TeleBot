@@ -22,7 +22,7 @@ async def _(event):
         as_document = True
     elif input_str == "text":
         as_text = True
-    await eor(event, "`Calculating my internet speed. Please wait!`")
+    await eor(event, "`Please wait while i check your Internet speed, master!`")
     start = datetime.now()
     s = speedtest.Speedtest()
     s.get_best_server()
