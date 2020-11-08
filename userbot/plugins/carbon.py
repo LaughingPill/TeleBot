@@ -88,7 +88,7 @@ async def carbon_api(e):
         color_name = driver.find_element_by_xpath(
             "/html/body/div[1]/main/div[3]/div[2]/div[1]/div[1]/div/span[2]/input"
         ).get_attribute("value")
-        await eor(e, "`Done Dana Done...\n100%`")
+        await eor(e, "`Done...\n100%`")
         file = "./carbon.png"
         await eor(e, "`Uploading..`")
         await e.client.send_file(
