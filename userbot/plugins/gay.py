@@ -23,7 +23,7 @@ async def _(event):
             "HI USER , WAIT",
             "HI USER , WAIT ARE YOU....",
             "HI USER , WAIT ARE YOU UMH...",
-            "HI USRR , WAIT ARE YOU A GAY??😬",
+            "HI USER , WAIT ARE YOU A GAY??😬",
         ]
 
         for i in animation_ttl:
